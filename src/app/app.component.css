@@ -1,0 +1,24 @@
+h1 {
+  margin-bottom: 0;
+}
+nav a {
+  text-align: center;
+  border: solid 1px;
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 6px;
+  display: inline-block;
+  background-color: hsl(0, 0%, 91%);
+  color: #1505ec;
+  border-radius: 4px;
+
+}
+
+nav a:hover {
+  color: white;
+  background-color: brown;
+}
+nav a.active {
+  background-color:blue;
+}

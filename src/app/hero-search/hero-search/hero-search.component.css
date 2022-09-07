@@ -1,0 +1,35 @@
+input {
+    padding: .6rem;
+    width: 300%;
+    max-width: 600px;
+    box-sizing: content-box;
+    display: block;
+  }
+.search-result li a:hover{
+    background-color:cornflowerblue;
+    color: black;
+
+}
+.search-component{
+    border: solid 1px ;
+    border-color: aliceblue;
+}
+ul.search-result {
+    margin-top: 0;
+    padding-left: 0;
+  }
+.li{
+    list-style-type: none;
+}
+.lable{
+    
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+input:focus {
+    outline: #336699 auto 2px;
+  }
